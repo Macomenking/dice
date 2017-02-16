@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					BF970FD21E4FB2770056A413 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3BTCYXN5LJ;
 						ProvisioningStyle = Automatic;
 					};
 					BF970FE61E4FB2780056A413 = {
@@ -416,7 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3BTCYXN5LJ;
 				INFOPLIST_FILE = "dice roll/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "macomenking.dice-roll";
@@ -429,7 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3BTCYXN5LJ;
 				INFOPLIST_FILE = "dice roll/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "macomenking.dice-roll";
