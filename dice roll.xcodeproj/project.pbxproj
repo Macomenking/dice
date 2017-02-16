@@ -14,6 +14,7 @@
 		BF970FE11E4FB2770056A413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF970FDF1E4FB2770056A413 /* LaunchScreen.storyboard */; };
 		BF970FEC1E4FB2780056A413 /* dice_rollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF970FEB1E4FB2780056A413 /* dice_rollTests.swift */; };
 		BF970FF71E4FB2780056A413 /* dice_rollUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF970FF61E4FB2780056A413 /* dice_rollUITests.swift */; };
+		BF9710051E4FBEB70056A413 /* RollTheDiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9710041E4FBEB70056A413 /* RollTheDiceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BF970FF21E4FB2780056A413 /* dice rollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dice rollUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF970FF61E4FB2780056A413 /* dice_rollUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dice_rollUITests.swift; sourceTree = "<group>"; };
 		BF970FF81E4FB2780056A413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9710041E4FBEB70056A413 /* RollTheDiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollTheDiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				BF970FD61E4FB2770056A413 /* AppDelegate.swift */,
 				BF970FD81E4FB2770056A413 /* ViewController.swift */,
 				BF970FDA1E4FB2770056A413 /* Main.storyboard */,
+				BF9710041E4FBEB70056A413 /* RollTheDiceViewController.swift */,
 				BF970FDD1E4FB2770056A413 /* Assets.xcassets */,
 				BF970FDF1E4FB2770056A413 /* LaunchScreen.storyboard */,
 				BF970FE21E4FB2770056A413 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				BF970FD91E4FB2770056A413 /* ViewController.swift in Sources */,
 				BF970FD71E4FB2770056A413 /* AppDelegate.swift in Sources */,
+				BF9710051E4FBEB70056A413 /* RollTheDiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "dice roll/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "macomenking.dice-roll";
@@ -424,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "dice roll/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "macomenking.dice-roll";
@@ -505,6 +511,7 @@
 				BF970FFD1E4FB2780056A413 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF970FFE1E4FB2780056A413 /* Build configuration list for PBXNativeTarget "dice rollTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +520,7 @@
 				BF9710001E4FB2780056A413 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF9710011E4FB2780056A413 /* Build configuration list for PBXNativeTarget "dice rollUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +529,7 @@
 				BF9710031E4FB2780056A413 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
